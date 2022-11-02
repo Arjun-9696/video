@@ -26,7 +26,7 @@ function App() {
         <video preload="yes" autoplay src={VideoSample} type="video/mp4" width="50%" height="50%" ref={videoRef}></video>
         <div onClick={playButton}>
           <video
-            preload="metadata" loop
+            preload="yes" loop
             ref={videoRef}
             style={{
               width: "100%",
