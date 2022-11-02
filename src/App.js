@@ -23,7 +23,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <video preload="yes" autoplay src={VideoSample} type="video/mp4" width="50%" height="50%" controls></video>
+        <video preload="yes" autoplay src={VideoSample} type="video/mp4" width="50%" height="50%" ref={videoRef}></video>
         <div onClick={playButton}>
           <video
             preload="yes" loop
